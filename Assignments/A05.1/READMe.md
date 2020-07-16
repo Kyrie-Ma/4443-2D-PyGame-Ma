@@ -9,8 +9,10 @@ You should have the ability to move the player around the screen without going o
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-| 1 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/A05.1/game.py" > game.py | Main python file to move the player in pygame |
-
+| 1 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/A05.1/game.py" > game.py | Python file to move the player in pygame |
+| 2 |  | The picture that use in the game.py |
+| 3 |  | The three screen shots of the result |
+  
 ### Instructions
 
 - Make sure have <'baseball_48x48.png'> in the same place
