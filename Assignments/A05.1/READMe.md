@@ -16,3 +16,8 @@ You should have the ability to move the player around the screen without going o
 ### Instructions
 
 - Make sure have <'baseball_48x48.png'> in the same place
+
+### Screen shot
+![Screen_shot1](https://user-images.githubusercontent.com/60235679/87682122-165bb080-c745-11ea-8cdf-bbf18f58dbe1.png)
+![Screen_shot2](https://user-images.githubusercontent.com/60235679/87682268-4440f500-c745-11ea-921a-9b0fc16ba448.png)
+![Screen_shot3](https://user-images.githubusercontent.com/60235679/87682381-6175c380-c745-11ea-92dc-8a2053d126e2.png)
