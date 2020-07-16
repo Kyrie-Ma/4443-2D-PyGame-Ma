@@ -10,8 +10,10 @@ You should have the ability to move the player around the screen without going o
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
 | 1 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/A05.1/game.py" > game.py | Python file to move the player in pygame |
-| 2 |  | The picture that use in the game.py |
-| 3 |  | The three screen shots of the result |
+| 2 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/A05.1/baseball_48x48.png" > baseball_48x48.png | The picture that use in the game.py |
+| 3 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/A05.1/screen_shot1.png" > screen_shot1.png | The first screen shots of the result |
+| 4 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/A05.1/screen_shot2.png" > screen_shot2.png | The second screen shots of the result |
+| 5 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/A05.1/screen_shot3.png" > screen_shot3.png | The third screen shots of the result |
   
 ### Instructions
 
