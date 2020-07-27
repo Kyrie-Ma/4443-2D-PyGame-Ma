@@ -17,7 +17,7 @@ You should have the ability to move the player around the screen without going o
   
 ### Instructions
 
-- Make sure have <'baseball_48x48.png'> in the same place
+- Make sure have <'baseball_48x48.png'> in the same place as the game.py
 
 ### Screen shot
 ![Screen_shot1](https://user-images.githubusercontent.com/60235679/87682122-165bb080-c745-11ea-8cdf-bbf18f58dbe1.png)
