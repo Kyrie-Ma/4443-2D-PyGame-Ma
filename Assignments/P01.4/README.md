@@ -9,16 +9,7 @@ This is an animated sprite that indicated moving around the screen and shooting 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
 | 1 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.3/game.py" > game.py | Python file to move the player in pygame |
-| 2 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.3/baseball_48x48.png" > baseball_48x48.png|The player in game.py |
-| 3 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.3/baseball_48x48_left.png" > baseball_48x48_left.png|The player when it move left|
-| 4 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.3/baseball_48x48_right.png" > baseball_48x48_right.png|The player when it move right|
-| 5 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.3/baseball_48x48_upper.png" > baseball_48x48_upper.png|The player when it move up|
-| 6 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.3/baseball_48x48_down.png" > baseball_48x48_down.png|The player when it move down|
-| 7 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.3/backgroud_1000x1000.png" > backgroud_1000x1000.png|The background in game.py|
-| 8 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.3/screen_shot1.png" > Screen_shot1.png|The first screen shots of the result|
-| 9 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.3/screen_shot2.png" > Screen_shot2.png|The second screen shots of the result|
-| 10 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.3/screen_shot3.png" > Screen_shot3.png|The third screen shots of the result|
-| 11 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.3/screen_shot4.png" > Screen_shot4.png|The fourth screen shots of the result|  
+| 1 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.3/game.py" > game.py | Python file to move the player in pygame |
 
 ### Instructions
 
