@@ -1,0 +1,17 @@
+{
+    "Dead":{
+        "name":"Dead (",
+        "count":13,
+        "fps":30
+    },
+    "Idle":{
+        "name":"Idle (",
+        "count":16,
+        "fps":30
+    },
+    "Walk":{
+        "name":"Walk (",
+        "count":10,
+        "fps":30
+    }
+}
