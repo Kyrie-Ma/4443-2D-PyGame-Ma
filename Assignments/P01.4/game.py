@@ -1,8 +1,7 @@
 import pygame
 import random
 import math
-from helper_module import straightDistance
-from helper_module import load_json
+import json
 
 WIDTH = 1280 
 HEIGHT = 720
@@ -12,10 +11,20 @@ fps=30
 black = (0,0,0)
 num_enemies = 15
 
-player_animations = load_json('./playersprites/info.json')
+def load_json(infile):
+    with open(infile,'r') as f:
+        data = f.read()
+        dictionary_json = json.loads(data)
+    return dictionary_json
+
+def straightDistance(x1,y1,x2,y2):
+    distance = ((x1-x2)**2 + (y1-y2)**2)**0.5
+    return distance
+
+player_animations = load_json('./player/info.json')
 robot_animations = load_json('./robot/info.json')
 bullet_animations = load_json('./fireball/info.json')
-
+   
 class Camera():
     def __init__(self):
         self.camera_offset = (0,0)
@@ -46,7 +55,7 @@ class Enemy(pygame.sprite.Sprite):
         self.dead_imagenum = 0
         self.idle_imagelimit = self.idle_pictureset["count"]
         self.dead_imagelimit = self.dead_pictureset["count"]
-        self.image = pygame.image.load("./robot/"+self.idle_pictureset["name"]+'/'+self.idle_pictureset["name"]+str(self.idle_imagenum)+".png")
+        self.image = pygame.image.load("./robot/"+self.idle_pictureset["name"]+str(self.idle_imagenum)+".png")
         self.rect = self.image.get_rect()
         self.x = random.randint(0,WIDTH)
         self.y = random.randint(0,HEIGHT)
@@ -56,14 +65,14 @@ class Enemy(pygame.sprite.Sprite):
     def update(self, position):
         if self.hit:
             self.idle_imagenum = max(1, (self.idle_imagenum + 1) % self.idle_imagelimit)
-            self.image = pygame.image.load("./robot/"+self.idle_pictureset["name"]+'/'+self.idle_pictureset["name"]+str(self.idle_imagenum)+".png")
+            self.image = pygame.image.load("./robot/"+self.idle_pictureset["name"]+str(self.idle_imagenum)+".png")
         elif not self.hit:
             self.dead_imagenum += 1
             if self.dead_imagenum == self.dead_imagelimit:
                 self.dead_imagenum = 1
                 self.kill()
             else:
-                self.image = pygame.image.load("./robot/"+self.dead_pictureset["name"]+'/'+self.dead_pictureset["name"]+str(self.dead_imagenum)+".png")
+                self.image = pygame.image.load("./robot/"+self.dead_pictureset["name"]+str(self.dead_imagenum)+".png")
         self.rect.topleft = (self.actual_position[0]+position[0], self.actual_position[1]+position[1])
 
 class Player(pygame.sprite.Sprite):
@@ -78,7 +87,7 @@ class Player(pygame.sprite.Sprite):
         self.idle_imagelimit = self.idle_pictureset["count"]
         self.dead_imagelimit = self.dead_pictureset["count"]
         self.walk_imagelimit = self.walk_pictureset["count"]
-        self.image = pygame.image.load("./playersprites/Idle (1).png")
+        self.image = pygame.image.load("./player/Idle (1).png")
         self.rect = self.image.get_rect()
         self.IMAGE_WIDTH = self.rect.right - self.rect.left
         self.IMAGE_HEIGHT = self.rect.bottom - self.rect.top
@@ -110,13 +119,13 @@ class Player(pygame.sprite.Sprite):
     def update(self, position):
         if self.distance < 10:
             self.idle_imagenum = max(1, (self.idle_imagenum + 1) % self.idle_imagelimit)
-            self.image = pygame.image.load("./playersprites/"+self.idle_pictureset["name"]+str(self.idle_imagenum)+").png")
+            self.image = pygame.image.load("./player/"+self.idle_pictureset["name"]+str(self.idle_imagenum)+").png")
         elif self.distance >= 10:
             self.walk_imagenum = max(1, (self.walk_imagenum + 1) % self.walk_imagelimit)
-            self.image = pygame.image.load("./playersprites/"+self.walk_pictureset["name"]+str(self.walk_imagenum)+").png")
+            self.image = pygame.image.load("./player/"+self.walk_pictureset["name"]+str(self.walk_imagenum)+").png")
         if self.actual_position[0] <= 0 or self.actual_position[0]+self.IMAGE_WIDTH >= 1920 or self.actual_position[1] <= 0 or self.actual_position[1]+self.IMAGE_HEIGHT >= 1080:
             self.dead_imagenum = max(1, (self.dead_imagenum + 1) % self.dead_imagelimit)
-            self.image = pygame.image.load("./playersprites/"+self.dead_pictureset["name"]+str(self.dead_imagenum)+").png")
+            self.image = pygame.image.load("./player/"+self.dead_pictureset["name"]+str(self.dead_imagenum)+").png")
             self.actual_position = self.old_loc
         self.rect.topleft = (self.actual_position[0]+position[0], self.actual_position[1]+position[1])
 
