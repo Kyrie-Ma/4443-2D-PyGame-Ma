@@ -9,7 +9,8 @@ This is an animated sprite that indicated moving around the screen and shooting 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
 | 1 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.4/game.py" > game.py | Python file to move the player in pygame |
-| 1 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.4/screen_shoot.png" > screen_shot.png | A screen shot that show bullet in different directions|
+| 2 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.4/screen_shoot.png" > screen_shot.png | A screen shot that show bullet in different directions|
+| 3 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.4/Video%20for%20P01.4.mkv" > Video for P01.4 | A video that shows the game |
 
 ### Instructions
 Place every folder in the right place
