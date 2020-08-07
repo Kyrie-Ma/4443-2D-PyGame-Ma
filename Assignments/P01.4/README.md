@@ -1,19 +1,19 @@
-## P01.4 - CovidZAR Shooting & Sound
+## P01.4 - Platformer
 ### Yuankai Ma
 ### Description:
 
-This is an animated sprite that indicated moving around the screen and shooting pygame base on last program.
+This is an animated sprite with platform music menu and punish.
 
 ### Files
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-| 1 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.4/game.py" > game.py | Python file to move the player in pygame |
-| 2 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.4/screen_shoot.png" > screen_shot.png | A screen shot that show bullet in different directions|
-| 3 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P01.4/Video%20for%20P01.4.mkv" > Video for P01.4 | A video that shows the game |
+| 1 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P02/game.py" > game.py | Python file to move the player in pygame |
+| 2 | <a href="https://github.com/Kyrie-Ma/4443-2D-PyGame-Ma/blob/master/Assignments/P02/map.txt" > map.txt | A txt place map with platform |
 
 ### Instructions
-Place every folder in the right place
+Please place every folder and file in the same folder
 
 ### Screen shot
-![screen_shoot](https://user-images.githubusercontent.com/60235679/89179253-f7d32300-d554-11ea-8cc9-650145e4f184.png)
+![screen_shoot1](https://user-images.githubusercontent.com/60235679/89682754-e3788880-d8bc-11ea-8ac8-5f5b7f3602ed.png)
+![screen_shoot2](https://user-images.githubusercontent.com/60235679/89682755-e4111f00-d8bc-11ea-9052-b7df7f22c4a5.png)
