@@ -105,6 +105,7 @@ grass_sounds[0].set_volume(0.2)
 grass_sounds[1].set_volume(0.2)
 pygame.mixer.music.load('music.wav')
 pygame.mixer.music.play(-1)
+pygame.mixer.music.set_volume(0.1)
 player_action = 'idle'
 player_frame = 0
 player_flip = False
