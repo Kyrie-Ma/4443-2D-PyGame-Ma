@@ -1,8 +1,8 @@
-## P01.3 - CovidZAR Sprite Animation
+## P01.4 - CovidZAR Shooting & Sound
 ### Yuankai Ma
 ### Description:
 
-This is an animated sprite that indicated moving around the screen shooting enemy game base on last program.
+This is an animated sprite that indicated moving around the screen shooting enemy and music game base on last program.
 
 ### Files
 
